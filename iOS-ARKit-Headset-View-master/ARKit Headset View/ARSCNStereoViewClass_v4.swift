@@ -24,7 +24,7 @@ class ARSCNStereoViewClass {
     let eyeCamera : SCNCamera = SCNCamera()
     
     // Parametres
-    let _HEADSET_IS_PASSTHROUGH_VS_SEETHROUGH = true // Pass-through uses a camera to show the outside world (like Merge VR, Gear VR). See-through headsets allow your eyes to see the real world (Aryzon, Hololens, Northstar).
+    let _HEADSET_IS_PASSTHROUGH_VS_SEETHROUGH = false // Pass-through uses a camera to show the outside world (like Merge VR, Gear VR). See-through headsets allow your eyes to see the real world (Aryzon, Hololens, Northstar).
     let _CAMERA_IS_ON_LEFT_EYE = false
     let interpupilaryDistance : Float = 0.066 // This is the value for the distance between two pupils (in metres). The Interpupilary Distance (IPD).
     
